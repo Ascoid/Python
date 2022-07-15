@@ -4,13 +4,13 @@ import requests
 from email.message import EmailMessage
 
 # Configurar email, senha 
-EMAIL_ADDRESS = 'rafahove2@gmail.com'
-EMAIL_PASSWORD = 'Astnfvwo426842'
+EMAIL_ADDRESS = '[ Email de Envio ]'
+EMAIL_PASSWORD = '[ Senha do Email ]'
 # Criar um e-mail 
 msg = EmailMessage() 
 msg['Subject'] = 'Carga #35 chegou ao porto'
-msg['From'] = 'rafahove2@gmail.com'
-msg['To'] = 'rafahove@gmail.com'
+msg['From'] = '[ Email de Envio ]'
+msg['To'] = '[ Email receptor ]'
 msg.set_content('Favor buscar a carga #35 que acaba de chegar na portaria'),
 
 # Enviar um e-mail 
